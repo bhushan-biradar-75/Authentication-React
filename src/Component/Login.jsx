@@ -30,7 +30,7 @@ const Login = () => {
         <from>
             <div>
                 <h3 className='text-center mt-3'><marquee><b>LOGIN</b></marquee></h3>
-                <h5>Static Authentication</h5>
+                <h5 className='text-center'>Static Authentication</h5>
                 <div class="container-fluid" style={{ position: 'absolute', left: '35%', top: '25%' }}>
                     <label><b>USERNAME</b></label>
                     <input style={{ width: "400px" }} className='form-control mt-4' name='username' onChange={handlechange} type="text" placeholder='enter your name' required />
